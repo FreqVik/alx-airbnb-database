@@ -1,0 +1,1 @@
+Original diagram sufficiently fit 3NF standards
