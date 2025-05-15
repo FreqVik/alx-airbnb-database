@@ -8,7 +8,8 @@ INNER JOIN users u ON b.user_id = u.user_id
 -- assuming we have two tables: properties and reviews
 SELECT p.property_id, p.property_name, r.review_text
 FROM properties p
-LEFT JOIN reviews r ON p.property_id = r.property_id
+LEFT JOIN reviews r ON p.property_id = r.property_id;
+
 
 -- Write a query using a FULL OUTER JOIN to retrieve all users and all bookings
 -- even if the user has no booking or a booking is not linked to a user
